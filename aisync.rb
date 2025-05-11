@@ -5,11 +5,11 @@
 class Aisync < Formula
   desc ""
   homepage ""
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
-    url "https://github.com/sushichan044/aisync/releases/download/v0.1.0/aisync_Darwin_all.tar.gz"
-    sha256 "0205a699d6bf2b3d31f04b0a012d29b45775b86b737ee2afab43dae7ad86bb17"
+    url "https://github.com/sushichan044/aisync/releases/download/v0.1.1/aisync_Darwin_all.tar.gz"
+    sha256 "a9abe8aa3ed0ad9dcf33530bfaf1614b0b7b97f72422f452cfacef70bd124486"
 
     def install
       bin.install "aisync"
@@ -18,15 +18,15 @@ class Aisync < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/sushichan044/aisync/releases/download/v0.1.0/aisync_Linux_x86_64.tar.gz"
-      sha256 "ee47a8dd3af92100495d3a04856194788504f76e9edd6196647e938a89a0d8af"
+      url "https://github.com/sushichan044/aisync/releases/download/v0.1.1/aisync_Linux_x86_64.tar.gz"
+      sha256 "a831dbc08c5418fdb75ca99bc7796773ac39f08f26e33612f9ae9f477046bdb8"
       def install
         bin.install "aisync"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/sushichan044/aisync/releases/download/v0.1.0/aisync_Linux_arm64.tar.gz"
-      sha256 "0ee20bd11abe3c75a7ee584486dcc60dcfdff6157949ee3325f176339e10e7d8"
+      url "https://github.com/sushichan044/aisync/releases/download/v0.1.1/aisync_Linux_arm64.tar.gz"
+      sha256 "e3c3ef20c540b2378b563aa8df06f6e921f575d4348cd719210c93d5dc3b5676"
       def install
         bin.install "aisync"
       end
