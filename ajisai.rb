@@ -5,11 +5,11 @@
 class Ajisai < Formula
   desc ""
   homepage ""
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
-    url "https://github.com/sushichan044/ajisai/releases/download/v0.5.0/ajisai_Darwin_all.tar.gz"
-    sha256 "a8a10d593ef3feae12c9911c1ff0b24b2927bdc4f2bb6fb1d3411c861d1cbb81"
+    url "https://github.com/sushichan044/ajisai/releases/download/v0.5.1/ajisai_Darwin_all.tar.gz"
+    sha256 "645f7dae2b094fbde8d4d800cce98049c406e70095ae7666b88e7a9a06c95f2e"
 
     def install
       bin.install "ajisai"
@@ -18,15 +18,15 @@ class Ajisai < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/sushichan044/ajisai/releases/download/v0.5.0/ajisai_Linux_x86_64.tar.gz"
-      sha256 "93dfb6e867836734dc945ec106a2fc9fa60c15f0a1c7607ed819f532f4e0b770"
+      url "https://github.com/sushichan044/ajisai/releases/download/v0.5.1/ajisai_Linux_x86_64.tar.gz"
+      sha256 "d98b9d2299b3b8deb65d7d9f0984de3470ec6e18c22d33779e5e8870be6cac88"
       def install
         bin.install "ajisai"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/sushichan044/ajisai/releases/download/v0.5.0/ajisai_Linux_arm64.tar.gz"
-      sha256 "382ef6d35ae80158fc84404d2bcc76eb2c327093f18f4bc10b857cac48b28ef6"
+      url "https://github.com/sushichan044/ajisai/releases/download/v0.5.1/ajisai_Linux_arm64.tar.gz"
+      sha256 "32b5e3198e222da49b354cc0ff26675c63d4aa3ba3b9672c56d952d28125b66a"
       def install
         bin.install "ajisai"
       end
