@@ -2,7 +2,7 @@
 cask "mdfm" do
   desc "Glob markdown files and get each frontmatters."
   homepage "https://github.com/sushichan044/mdfm"
-  version "0.1.2"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,18 +11,18 @@ cask "mdfm" do
   binary "mdfm"
 
   on_macos do
-    url "https://github.com/sushichan044/mdfm/releases/download/v0.1.2/mdfm_Darwin_all.tar.gz"
-    sha256 "9e2a3e95e3e66130ca9a0e6afc4a3549abf752457ec1550c96e4fd25c6783b0c"
+    url "https://github.com/sushichan044/mdfm/releases/download/v1.0.0/mdfm_Darwin_all.tar.gz"
+    sha256 "e6d3bf5b9a660ba7cce464cea5037c4e94feba49feaa6fe1032123a9fb784517"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sushichan044/mdfm/releases/download/v0.1.2/mdfm_Linux_x86_64.tar.gz"
-      sha256 "2bdac5e5e7221dd20710e1edbc3158b76093c5d0abbf53bacc148815f02bb701"
+      url "https://github.com/sushichan044/mdfm/releases/download/v1.0.0/mdfm_Linux_x86_64.tar.gz"
+      sha256 "43684c1bb97ce9e2fd65eb157a614d657623241b625b88cfef3526389fd1cd2a"
     end
     on_arm do
-      url "https://github.com/sushichan044/mdfm/releases/download/v0.1.2/mdfm_Linux_arm64.tar.gz"
-      sha256 "2b6b55a3cc853dbfd48d3e9e6a9d8c9f73a84ccffb94c550f8aa958ae5621e46"
+      url "https://github.com/sushichan044/mdfm/releases/download/v1.0.0/mdfm_Linux_arm64.tar.gz"
+      sha256 "f3aa5ebfbb20b7a7a562c7e2967b6c4f49aa4c881b75312489666d475e09a358"
     end
   end
 
