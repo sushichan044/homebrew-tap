@@ -3,7 +3,7 @@ cask "mdfm" do
   name "mdfm"
   desc "Glob markdown files and get each frontmatters."
   homepage "https://github.com/sushichan044/mdfm"
-  version "1.0.1"
+  version "2.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "mdfm" do
 
   on_macos do
     url "https://github.com/sushichan044/mdfm/releases/download/v#{version}/mdfm_Darwin_all.tar.gz"
-    sha256 "aadcccefe5b1b7d98881e184e4a34e12ec3ddc9b1d20e9b79265c3d141b99eac"
+    sha256 "2c369feabcc49bd6afcee2524184f060c66913f66097b664024464193aa24d7c"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sushichan044/mdfm/releases/download/v#{version}/mdfm_Linux_x86_64.tar.gz"
-      sha256 "ee1a3ea93149bdabcc9d9ce03ec569dc47128fe373e33e0e54afaff5e215ccae"
+      sha256 "b861d93f5c0839444d7433e95f50117e0df15d9d2e68aa72f6bf66133353bb24"
     end
     on_arm do
       url "https://github.com/sushichan044/mdfm/releases/download/v#{version}/mdfm_Linux_arm64.tar.gz"
-      sha256 "4ae0b43e5094af9bf0b9a59e486da601ecaef7b1a5b1fea4f7aa8568362b8149"
+      sha256 "a8d0adb406ae9febc4c42731b043753cf15e10ff0afc47d23a7947c73524612a"
     end
   end
 
