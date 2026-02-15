@@ -3,7 +3,7 @@ cask "sidetable" do
   name "sidetable"
   desc "A tool that helps manage a project-local private area."
   homepage "https://github.com/sushichan044/sidetable"
-  version "1.1.2"
+  version "2.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "sidetable" do
   on_macos do
     on_intel do
       url "https://github.com/sushichan044/sidetable/releases/download/v#{version}/sidetable_Darwin_x86_64.tar.gz"
-      sha256 "283f14660ca47df2f7a3c8d5b73e3b6d290df0810f8cfc35ac817af92d4a4de7"
+      sha256 "a65815b0e35b530f04677a9cbb8f577091505b98d220556d61858ea75b33d0a0"
     end
     on_arm do
       url "https://github.com/sushichan044/sidetable/releases/download/v#{version}/sidetable_Darwin_arm64.tar.gz"
-      sha256 "39cf75b472951e9e89d839cc01974681ee5063bb3ca7c8250ef7fb213e1e9da5"
+      sha256 "fd951aec00e6da05dc9fc520437d74a76ccd52803b2755820a1a110a3eafd498"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sushichan044/sidetable/releases/download/v#{version}/sidetable_Linux_x86_64.tar.gz"
-      sha256 "8d41fcb95db6bf1b1c323e6801ae030bf4cfe170537ece316f4471e86a8e36a6"
+      sha256 "783cb8cab89ea992e013ec25e889c2bc95de95aea897e5b312a8523130cd566c"
     end
     on_arm do
       url "https://github.com/sushichan044/sidetable/releases/download/v#{version}/sidetable_Linux_arm64.tar.gz"
-      sha256 "a74eabab5fad50f1804a0540afff2ab481d49265add840c144b3088c4ebf9c6b"
+      sha256 "47a3730281419ae2e253e875ff5cbbb69811f2703d4a98b469adde258e26c1f6"
     end
   end
 
